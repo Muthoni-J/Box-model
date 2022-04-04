@@ -1,31 +1,29 @@
 body{
     font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 15px;
+    padding: 5px;
     box-sizing: border-box;
 }
 
-.tbox{
-    position: absolute;
-    top: 30%;
+.box1{
+    margin: 16%;
+    top: 20%;
     left: 30%;
-    background-color: #ff00c8;
-    border: 5px solid gray;
+    border: 2px groove #6AE11E;
     width: 30%;
   
    padding: 20px;
 }
-.sbox{
-    background-color: #00ff2a;
-    border: 5px solid gray;
+.box2{
+
+    border: 2px dashed #1ECBE1;
     width: 85%;
   
    padding: 20px;
 }
-.fbox{
-    background-color: blue;
-    border: 5px solid gray;
+.box3{
+    border: 2px dotted #961EE1;
     width: 80%;
     text-align: center;
-   padding: 20px;
+   padding:20px;
 }
